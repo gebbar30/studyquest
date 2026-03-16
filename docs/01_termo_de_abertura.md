@@ -22,7 +22,7 @@ Estudantes universitários enfrentam dificuldades crônicas para manter a consis
 * Redes sociais internas complexas (chat entre alunos).
 
 **5. Cronograma de Marcos (Milestones)**
-* **Fase 1 (16/03/2026):** Ideação, Termo de Abertura, Resumo Expandido (Parte 1) e Repositório.
+* **Fase 1 (16/03/2026):** Ideação e estruturação: Definição do problema, criação de personas com IA, propostas de valor, Lista Funcionalidades e Organização do repositorio inicial, incluindo entrega do (Termo de Abertura, Resumo Expandido).
 * **Fase 2 (15/04/2026):** Arquitetura, Stack, Modelagem de Dados e Protótipo Visual.
 * **Fase 3 (20/05/2026):** Construção do MVP (Front + Back) com ferramentas de IA.
 * **Fase 4 (27/05/2026):** Entrega Final, Deploy e Pitch em Vídeo (5 min).
