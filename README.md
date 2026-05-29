@@ -4,9 +4,9 @@
 ---
 
 ## ⚠️ 1. O Problema
-Estudantes frequentemente têm dificuldade em manter consistência em suas rotinas de estudo. A ausência de planejamento estruturado, combinada com baixa motivação ao longo do semestre, leva à procrastinação e ao acúmulo de conteúdo antes de provas e avaliações e bastantes estresses.
-
-Grande parte das ferramentas existentes de organização acadêmica não oferece engajamento contínuo nem recomendações inteligentes de planejamento. Como resultado, muitos estudantes estudam de forma desorganizada, o que impacta negativamente o desempenho acadêmico e o bem-estar.
+## Problema
+Estudantes do Ensino Profissional e Tecnológico (EPT) possuem uma rotina acadêmica densa e acelerada. O principal problema não é a falta de informação, mas a **fragmentação dos dados**. 
+Atualmente, o aluno precisa acessar múltiplas fontes isoladas (o App oficial da instituição para ver notas, a plataforma web para baixar PDFs, e grupos de mensagens para avisos) e tentar, mentalmente, organizar tudo isso em uma rotina de estudos. Essa sobrecarga cognitiva gera fricção, fazendo com que o aluno perca tempo gerenciando arquivos em vez de efetivamente estudar e absorver o conteúdo.
 
 ---
 
