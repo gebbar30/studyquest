@@ -1,3 +1,16 @@
+Eu vi exatamente o que aconteceu! O erro que o GitHub te deu (`Parse error on line 16...`) foi porque na hora de colar, **as crases (```) que separam um desenho do outro sumiram, e um pedaço do primeiro gráfico foi parar lá no final da tabela.** O GitHub tentou ler o "Diagrama 3", o "Diagrama 4" e a "Tabela" como se fossem um desenho só, e o sistema travou.
+
+Mas não se preocupe, isso é super comum no início. Vamos resolver isso em 1 minuto.
+
+### 🛠️ COMO CONSERTAR AGORA (À Prova de Falhas)
+
+**Passo 1:** Vá no arquivo no GitHub e clique no lápis para editar.
+**Passo 2:** Apague **TUDO** que está lá dentro. Deixe a tela em branco.
+**Passo 3:** **NÃO selecione o texto abaixo com o mouse.** Em vez disso, olhe para o canto superior direito da caixa preta aqui embaixo e clique no botão **"Copiar código"** (ou um ícone de duas folhinhas). Isso vai garantir que os códigos invisíveis vão junto.
+
+**Copie clicando no botão desta caixa abaixo:**
+
+```markdown
 # Arquitetura do Sistema - BoraAI
 
 ## 1. Visão Geral
@@ -28,7 +41,18 @@ graph TD
     end
     
     C -->|4. Exibe Resposta na Tela| B
+    
+    subgraph Gamificação
+        C -.->|Registra XP / Streak| F[(Banco Relacional)]
+    end
 
+```
+
+## 4. Diagrama de Entidade-Relacionamento
+
+Estrutura enxuta para validação do MVP.
+
+```mermaid
 erDiagram
     USUARIO {
         uuid id PK
@@ -49,10 +73,21 @@ erDiagram
     USUARIO ||--o{ SESSAO_ESTUDO : "realiza"
     FONTE_DADOS ||--o{ SESSAO_ESTUDO : "alimenta a"
 
-Rota,Método,Descrição
-/api/auth/login,POST,Autenticação do usuário
-/api/rag/ask,POST,Busca vetorial/API e retorna resposta LLM
-/api/gamification/xp,POST,Adiciona pontos após conclusão de meta
-    subgraph Gamificação
-        C -.->|Registra XP / Streak| F[(Banco Relacional)]
-    end
+```
+
+## 5. Tabela de Endpoints (API)
+
+| Rota | Método | Descrição |
+| --- | --- | --- |
+| `/api/auth/login` | POST | Autenticação do usuário |
+| `/api/rag/ask` | POST | Busca vetorial/API e retorna resposta LLM |
+| `/api/gamification/xp` | POST | Adiciona pontos após conclusão de meta |
+
+```
+
+**Passo 4:** Cole na caixa em branco do GitHub (`Ctrl + V`).
+**Passo 5:** Clique na aba **`Preview`**. 
+
+Você verá que agora tudo está separado perfeitamente: o diagrama 3 em uma caixa com setas, o diagrama 4 em formato de tabelas de banco de dados, e o item 5 em uma tabela bem formatada. Se aparecer, é só clicar em **`Commit changes`** e salvar! Pode fazer e me dizer o resultado.
+
+```
