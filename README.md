@@ -1,17 +1,17 @@
-# 📚 StudyQuest
+# 📚 BoraAI
 *Transformando estudo em progresso gamificado com apoio de IA.*
 
 ---
 
 ## ⚠️ 1. O Problema
-Estudantes universitários frequentemente têm dificuldade em manter consistência em suas rotinas de estudo. A ausência de planejamento estruturado, combinada com baixa motivação ao longo do semestre, leva à procrastinação e ao acúmulo de conteúdo antes de provas e avaliações e bastantes estresses.
+Estudantes frequentemente têm dificuldade em manter consistência em suas rotinas de estudo. A ausência de planejamento estruturado, combinada com baixa motivação ao longo do semestre, leva à procrastinação e ao acúmulo de conteúdo antes de provas e avaliações e bastantes estresses.
 
 Grande parte das ferramentas existentes de organização acadêmica não oferece engajamento contínuo nem recomendações inteligentes de planejamento. Como resultado, muitos estudantes estudam de forma desorganizada, o que impacta negativamente o desempenho acadêmico e o bem-estar.
 
 ---
 
 ## 💡 2. Proposta de Valor
-O **StudyQuest** é uma plataforma de produtividade acadêmica gamificada que utiliza inteligência artificial para sugerir rotinas de estudo personalizadas, transformando o progresso acadêmico em uma experiência motivadora baseada em desafios, níveis e recompensas.
+BoraAI é uma plataforma gamificada focada em estudantes do Ensino Profissional (EPT). Utilizando a tecnologia RAG (Inteligência Artificial que lê os documentos da instituição), o sistema automatiza o planejamento de estudos, tira dúvidas baseadas no material oficial e recompensa o aluno com XP.
 
 ---
 
