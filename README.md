@@ -63,3 +63,15 @@ A IA será o motor principal para:
 Pensando na facilidade de prototipação rápida com ferramentas como **v0.dev**, **Bolt.new** ou **Cursor**, a stack idealizada para a Fase 2 e 3 é:
 * **Frontend e Backend:** Next.js (React) + Tailwind CSS.
 * **Banco de Dados:** SQLite ou Supabase (PostgreSQL) para persistência leve.
+
+---
+
+## 🎨 Protótipos Visuais (MVP Fase 2 - Vibe Coding)
+
+Conforme a exigência da **Fase 2** da disciplina (gerar telas, navegação e dados mockados via IA), utilizamos a ferramenta **v0.dev** com Engenharia de Prompt estruturada para gerar as interfaces funcionais em React + Tailwind CSS.
+
+Os prompts utilizados estão documentados na pasta `docs/prompts`.
+
+🔗 **Acesse os protótipos interativos gerados:**
+* 🎮 [Visualizar Dashboard Gamificado](https://v0.app/chat/dashboard-boraai-hZCDjngNRIu)
+* 💬 [Visualizar Chat RAG (Tutor IA)](https://v0.app/chat/tela-de-chat-boraai-gPFBgsMZAP9)
