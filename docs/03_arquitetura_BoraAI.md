@@ -28,7 +28,31 @@ graph TD
     end
     
     C -->|4. Exibe Resposta na Tela| B
-    
+
+erDiagram
+    USUARIO {
+        uuid id PK
+        string nome
+        string turno
+        int xp_total
+    }
+    FONTE_DADOS {
+        uuid id PK
+        string tipo_fonte "PDF, App_Oficial, Plataforma_Web"
+        string url_ou_arquivo
+    }
+    SESSAO_ESTUDO {
+        uuid id PK
+        uuid usuario_id FK
+        int xp_ganho
+    }
+    USUARIO ||--o{ SESSAO_ESTUDO : "realiza"
+    FONTE_DADOS ||--o{ SESSAO_ESTUDO : "alimenta a"
+
+Rota,Método,Descrição
+/api/auth/login,POST,Autenticação do usuário
+/api/rag/ask,POST,Busca vetorial/API e retorna resposta LLM
+/api/gamification/xp,POST,Adiciona pontos após conclusão de meta
     subgraph Gamificação
         C -.->|Registra XP / Streak| F[(Banco Relacional)]
     end
